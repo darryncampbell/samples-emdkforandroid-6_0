@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--This is an auto generated document. Changes to this document may cause incorrect behavior.-->
-<wap-provisioningdoc>
+<?xml version="1.0" encoding="UTF-8"?><!--This is an auto generated document. Changes to this document may cause incorrect behavior.--><wap-provisioningdoc>
   <characteristic type="ProfileInfo">
     <parm name="created_wizard_version" value="6.0.1"/>
   </characteristic>
   <characteristic type="Profile">
     <parm name="ProfileName" value="DataCaptureProfile-1"/>
-    <parm name="ModifiedDate" value="2016-09-28 14:12:31"/>
-    <characteristic type="ActivitySelection" version="0.1">
+    <parm name="ModifiedDate" value="2017-02-03 10:00:47"/>
+  <characteristic type="ActivitySelection" version="0.1">
       <parm name="emdk_name" value=""/>
       <characteristic type="Application">
         <parm name="package" value="com.symbol.profiledatacapturesample1"/>
@@ -240,7 +238,7 @@
       <characteristic type="ScanParams">
         <parm name="code_id_type" value="Default"/>
         <parm name="volume_slider_type" value="Default"/>
-        <parm name="decode_audio_feedback_uri" value="Default"/>
+        <parm name="decode_audio_feedback_uri" value=""/>
         <parm name="decode_haptic_feedback" value="Default"/>
         <parm name="bt_disconnect_on_exit" value="Default"/>
         <parm name="connection_idle_time" value="600"/>
