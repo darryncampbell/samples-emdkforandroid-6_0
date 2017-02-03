@@ -512,6 +512,7 @@ public class MainActivity extends Activity implements EMDKListener, DataListener
             try {
 
                 ScannerConfig config = scanner.getConfig();
+                config.scanParams.decodeAudioFeedbackUri = "";
 
                 // Set EAN8
                 if(checkBoxEAN8.isChecked())
